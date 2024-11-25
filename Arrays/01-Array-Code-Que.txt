@@ -1,0 +1,94 @@
+1) Largest Element in Array ?
+
+Approch 1 : Assume the first element is the largest.
+Compare this assumed largest element with every other element in the array.
+If any element is larger, update the largest element.
+Continue until you've checked all elements.
+
+////// 16 Novmber 24 /////////
+
+2) Second Lagest Elememt In Array ?
+find lagest and compaire it with all elemets 
+
+3) Check if Array is Sorted ? 
+ if every previous nuber is less than currnt number then Array is Sorted
+ >>)GFG
+
+ bool arraySortedOrNot(int arr[], int n) {
+    // Code Here
+    
+    for(int i=0; i<n-1; i++){
+        if(arr[i] > arr[i+1]){
+            return false;
+        }
+    }
+    return true;
+}
+
+>>>>>>> 17 Novmber <<<<<<<<<<<
+
+4)) Remove Duplicates in-place from Sorted Array ?
+
+>> Using set in c++ that stores unique elemenst 
+>> Using two Pointers 
+
+
+>>>>>>>>>> 19 November >>>>>>>>>>
+
+5)) Left & right Rotate the Array by One ? 
+
+Store first El of Array in "FirstEl"
+shift elements to left by 1 position
+replace last element of array with "FirstEl"
+
+>>>>>>>>>> 20 Novmber <<<<<<<<<<<<<<
+
+6)) Rotate array by K elements ? 
+
+7))Move all Zeros to the end of the array ? 
+
+8))Linear Search 
+
+>>>>>>>>>> 21 Novmber <<<<<<<<<<<<<<
+
+9) Union of Two Sorted Arrays ?
+using set
+using Two Pointers
+
+10) Find the missing number in an array ?
+> using Linear Search
+>>using Sum
+
+11) Count Maximum Consecutive One's in the array
+
+>>>>>>>>>> 22 Novmber <<<<<<<<<<<<<<
+
+12) Find the number that appears once, and the other numbers twice
+Problem Statement: Given a non-empty array of integers arr,
+every element appears twice except for one. Find that single one.
+
+13) Longest Subarray with given Sum K(Positives)
+using two loops
+Better > Using Hashing
+Optimal > using two-pointer GFG
+
+
+14) Longest Subarray with sum K | [Postives and Negatives]
+   13Array.cpp
+   optimal > using Hashing 
+   we can't use two pointer for Negatives
+
+>>>>>>>>>> 25 Novmber <<<<<<<<<<<<<<  
+
+15)  Two Sum : Check if a pair with given sum exists in Array
+>> 15 Array 
+
+16) Check if the given String is Palindrome or not
+
+17) Print Fibonacci Series up to Nth term
+
+
+
+
+
+

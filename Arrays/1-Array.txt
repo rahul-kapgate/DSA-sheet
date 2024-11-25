@@ -1,0 +1,77 @@
+1)***What is Array ? 
+
+an array is a data structure that holds a collection of elements, all of which are of the same data type, 
+stored at contiguous memory locations. Arrays are commonly used because they allow for efficient access to 
+elements via an index, which represents the element's position within the array.
+
+Here are some key characteristics and uses of arrays:
+
+*Fixed Size: Once an array is created, its size cannot be changed. This means arrays have a fixed amount of 
+memory allocation, which can be both a benefit (for memory predictability) and a limitation (if dynamic resizing 
+is needed).
+
+*Indexing: Arrays provide constant-time access to their elements using an index. The index starts at 0 in 
+most programming languages (like Python, C, C++), so if we want the first element, we use array[0].
+
+*Uniform Data Type: All elements in an array must be of the same data type, like integers, floats, or strings.
+ This helps with memory allocation and makes the data structure efficient.
+
+*Use Cases: Arrays are useful in situations where you need fast read and write access, such as for lookup tables,
+ static collections, or when working with known quantities of data where the size doesn’t need to change dynamically.
+
+2)### what are the types Array ? ###
+
+One-Dimensional Array
+Multi-Dimensional Array
+
+3)### synntx of Array in in c++, java, python, js , ###
+
+C++ : int arr[5] = {1, 2, 3, 4, 5};
+
+Java : int[] arr = {1, 2, 3, 4, 5};
+
+py : arr = [1, 2, 3, 4, 5]
+
+Js : let arr = [1, 2, 3, 4, 5];
+
+4) What is the difference between an array and a linked list?
+
+Array:
+Fixed size.
+Contiguous memory locations.
+Fast access to elements via indices (O(1) time).
+Insertion and deletion are slow (O(n) time) since it might require shifting elements.
+
+linked-list : 
+Dynamic size.
+Elements are scattered in memory; nodes are linked using pointers.
+Slower access to elements (O(n) time) since you need to traverse nodes.
+Insertion and deletion are efficient (O(1) time), especially at the beginning or middle of the list.
+
+5)  What is a dynamic array? How does it work?
+A dynamic array is an array that can resize itself automatically when it reaches its capacity limit.
+Typically implemented using a static array that resizes by allocating a new larger array and copying the elements when the old array is full.
+Common implementations are ArrayList in Java, vector in C++, and list in Python.
+
+6)  What are the advantages of using arrays?
+Constant-time access to elements using an index (O(1)).
+Simple and easy to implement.
+Efficient in memory usage when the number of elements is known ahead of time.
+
+7) How do you find the largest/smallest element in an array?
+
+Approach:
+Traverse the array once and compare each element with the current largest or smallest value. Update accordingly.
+Time complexity: O(n), where n is the number of elements in the array.
+
+8) What is the time complexity of searching for an element in an unsorted array?
+
+using liner Search it takes O(n)
+because you may have to check every element to find the target value
+
+9) How do you reverse an array? 
+  i) Approach 1 :
+   Take another array move all elements to that array then move  elements in revers order to oringal Array 
+  ii) Apprroch 2 :
+   Use a two-pointer technique, where one pointer starts at the beginning of the array and the other at the end.
+    Swap the elements at these pointers and then move them towards each other until they meet in the middle. 

@@ -1,0 +1,37 @@
+1. ArrayList in Java
+Definition: A part of Java’s java.util package.
+Underlying Data Structure: Resizable array.
+Dynamic Resizing: Can grow and shrink in size as needed.
+Thread Safety: Not synchronized by default, meaning it’s not thread-safe. Use Collections.synchronizedList() for thread safety.
+Access Time: Provides constant-time access to elements (O(1)), but adding or removing elements (especially in the middle) can be slower (O(n)).
+
+ArrayList <String> MyarrayList = new ArrayList<>();
+MyarrayList.add("Apple");
+MyarrayList.add("Banana");
+
+2. Vector in C++
+Definition: Part of the C++ Standard Template Library (STL).
+Underlying Data Structure: Dynamic array.
+Dynamic Resizing: Automatically resizes, usually by doubling the capacity.
+Thread Safety: Not thread-safe by default; synchronization is the programmer's responsibility.
+Access Time: Provides constant-time access (O(1)), similar to Java’s ArrayList, but with efficient random access.
+
+
+vector <string> Myvector;
+Myvector.push_back("Apple");
+Myvector.push_back("Banana");
+
+List in Python
+Definition: Built-in data structure in Python.
+Underlying Data Structure: Dynamic array.
+Dynamic Resizing: Expands automatically, with resizing behavior managed internally.
+Thread Safety: Not thread-safe. Requires additional synchronization for concurrent access.
+Access Time: Constant-time access (O(1)), but insertion and deletion operations can take linear time (O(n)).
+
+my_list = ["Apple", "Banana"]
+my_list.append("Cherry")
+
+Key Points
+Resizing: All three structures are dynamic and resize as needed.
+Thread Safety: None are thread-safe by default.
+Access Time: Access time is O(1) in all three, but modifying the middle of the list can be slower.
