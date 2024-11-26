@@ -87,8 +87,19 @@ Optimal > using two-pointer GFG
 
 17) Print Fibonacci Series up to Nth term
 
+>>>>>>>>>> 26 Novmber <<<<<<<<<<<<<<  
 
+18)Count frequency of each element in the array
 
+Problem statement: Given an array, we have found the number of occurrences of each element in the array.
+
+19) Find the highest/lowest frequency element
+
+Problem Statement: Given an array of size N. Find the highest and lowest frequency element.
+
+20 ) Sort an array of 0s, 1s and 2s
+
+Problem Statement: Given an array consisting of only 0s, 1s, and 2s. Write a program to in-place sort the array without using inbuilt sort functions. ( Expected: Single pass-O(N) and constant space)
 
 
 
